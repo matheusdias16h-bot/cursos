@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cursos - Ultra Courses</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="container nav-container">
+      <div class="logo">Ultra Courses</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Cursos</a></li>
+        <li><a href="about.html">Sobre</a></li>
+        <li><a href="contact.html">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="courses-section container">
+    <h2>Todos os Cursos</h2>
+
+    <!-- Filtro -->
+    <div class="filter-tabs">
+      <input type="radio" name="filter" id="all" checked>
+      <label for="all">Todos</label>
+
+      <input type="radio" name="filter" id="programming">
+      <label for="programming">Programação</label>
+
+      <input type="radio" name="filter" id="design">
+      <label for="design">Design</label>
+
+      <input type="radio" name="filter" id="marketing">
+      <label for="marketing">Marketing</label>
+    </div>
+
+    <div class="courses-grid">
+      <div class="course programming course-card">
+        <img src="https://source.unsplash.com/400x250/?programming" alt="Curso 1">
+        <h3>Programação Web Completa</h3>
+        <p>Aprenda HTML, CSS e JavaScript do zero ao avançado.</p>
+        <a href="course1.html" class="btn">Comprar R$299</a>
+      </div>
+
+      <div class="course design course-card">
+        <img src="https://source.unsplash.com/400x250/?design" alt="Curso 2">
+        <h3>Design Gráfico Profissional</h3>
+        <p>Crie artes incríveis para web e redes sociais.</p>
+        <a href="#" class="btn">Comprar R$249</a>
+      </div>
+
+      <div class="course marketing course-card">
+        <img src="https://source.unsplash.com/400x250/?marketing" alt="Curso 3">
+        <h3>Marketing Digital Avançado</h3>
+        <p>Aprenda SEO, tráfego pago e vendas online.</p>
+        <a href="#" class="btn">Comprar R$199</a>
+      </div>
+
+      <div class="course programming course-card">
+        <img src="https://source.unsplash.com/400x250/?ai" alt="Curso 4">
+        <h3>Inteligência Artificial Aplicada</h3>
+        <p>Aprenda IA aplicada a negócios e automação.</p>
+        <a href="#" class="btn">Comprar R$399</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Ultra Courses. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
