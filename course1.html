@@ -1,0 +1,43 @@
+<section class="course-detail container">
+  <h2>Programação Web Completa</h2>
+  <img src="https://source.unsplash.com/800x400/?programming" alt="Programação Web" style="border-radius:12px; margin-bottom:20px;">
+
+  <!-- Abas -->
+  <div class="tabs">
+    <input type="radio" name="tab" id="tab1" checked>
+    <label for="tab1">Descrição</label>
+    <input type="radio" name="tab" id="tab2">
+    <label for="tab2">Conteúdo</label>
+    <input type="radio" name="tab" id="tab3">
+    <label for="tab3">Comprar</label>
+  </div>
+
+  <div class="tab-contents">
+    <div id="content1" class="tab-content">
+      <p>Aprenda HTML, CSS e JavaScript do zero ao avançado. Curso completo com exercícios práticos, certificação e suporte online.</p>
+    </div>
+    <div id="content2" class="tab-content">
+      <ul>
+        <li>HTML5 básico ao avançado</li>
+        <li>CSS3 Flexbox, Grid e animações</li>
+        <li>JavaScript ES6 e DOM</li>
+        <li>Projetos práticos e portfólio</li>
+      </ul>
+    </div>
+    <div id="content3" class="tab-content">
+      <form action="#">
+        <label>Nome:</label>
+        <input type="text" name="name" required>
+        <label>Email:</label>
+        <input type="email" name="email" required>
+        <label>Forma de Pagamento:</label>
+        <select name="payment">
+          <option value="pix">PIX</option>
+          <option value="boleto">Boleto</option>
+          <option value="cartao">Cartão</option>
+        </select>
+        <button type="submit">Finalizar Compra via WhatsApp</button>
+      </form>
+    </div>
+  </div>
+</section>
